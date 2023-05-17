@@ -5,7 +5,6 @@
          "userName": "Pempe",
          "password": 123,
          "role": "user",
-         "isBlocked": false,
          "email": "pempe@bravo.lt",
          "avatarURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Northern-Lapwing-Vanellus-vanellus.jpg/1920px-Northern-Lapwing-Vanellus-vanellus.jpg"
       },
@@ -14,7 +13,6 @@
          "userName": "Dzeisonas",
          "role": "admin",
          "password": 123,
-         "isBlocked": false,
          "email": "json@bravo.lt",
          "avatarURL": "https://www.looper.com/img/gallery/this-is-what-jason-from-friday-the-13th-was-almost-named/intro-1622299712.jpg"
       },
@@ -23,7 +21,6 @@
          "userName": "Utele",
          "password": 123,
          "role": "user",
-         "isBlocked": false,
          "email": "utele@bravo.lt",
          "avatarURL": "https://hips.hearstapps.com/hmg-prod/images/praying-mantis-amazing-insects-1595937972.jpg?crop=1.00xw:0.751xh;0,0.227xh&resize=1200:*"
       },
@@ -32,36 +29,46 @@
          "userName": "NoobDev",
          "password": 123,
          "role": "user",
-         "isBlocked": false,
          "email": "bukas@bravo.lt",
          "avatarURL": "https://kinfo.lt/wp-content/uploads/2015/01/Jim-Carrey-Dumband-Dumber.jpg"
       }
    ],
-   "posts": [
+   "questions": [
       {
          "id": 1,
-         "userId": 4,
-         "title": "kodėl neveikia react apas?"
+         "creatorId": 4,
+         "question": "kodėl neveikia react apas?",
+         "likes": 2,
+         "editStatus": false
+         
       },
       {
          "id": 2,
-         "userId": 3 ,
-         "title": "Nu tu ir durnas, reactas ne tau!"
+         "creatorId": 3 ,
+         "question": "Nu tu ir durnas, reactas ne tau?",
+         "upvotes": 0,
+         "editStatus": false
+         
+      }
+   ],
+   "answers": [
+      {
+         "id": 1,
+         "questionId": 4,
+         "creatorId": 4,
+         "answer": "puikus appas",
+         "likes": 2,
+         "editStatus": false
+         
       },
       {
-         "id": 3,
-         "userId": 4,
-         "title": "Čia kur suvesti? Į terminalą?"
-      },
-      {
-         "id": 4,
-         "userId": 1,
-         "title": "Aš tai visai ne prie ko"
-      },
-      {
-         "id": 5,
-         "userId": 2,
-         "title": "Jūs jau mirę, tik dar to nesuprantat"
+         "id": 2,
+         "questionId": 4,
+         "creatorId": 4,
+         "answer": "taip ir toliau!",
+         "likes": 10,
+         "editStatus": false
       }
    ]
 }
+
