@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started  React atsiskaitymas
 
 ### `1 step`
@@ -22,3 +23,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Open separate json-watch terminal run commnand: "npm run json". This loads json server.
 
+=======
+# react-final
+Baigiamasis Front-end atsiskaitymas
+>>>>>>> 1f1069aea2d43b7fad49bc42c3f75c5a4d802ba2
