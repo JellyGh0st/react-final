@@ -1,4 +1,4 @@
-
+import { createContext, useEffect, useState} from "react";
 const UsersProvider = ({children}) => {
 
    return ( 
@@ -7,4 +7,4 @@ const UsersProvider = ({children}) => {
     );
 }
  
-export UsersProvider;
+export { UsersProvider};

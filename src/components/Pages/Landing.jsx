@@ -1,7 +1,10 @@
 const Landing = () => {
-   return (  <>
-   </>);
+   return (  
+      <main>
+         <div>
+            LANDING MAIN
+         </div>
+      </main>);
 }
  
-export default Landing;<>
-</>
+export default Landing;
