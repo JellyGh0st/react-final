@@ -1,9 +1,11 @@
 const Landing = () => {
    return (  
       <main>
-         <div>
+         <section id="main-section">
+            
             LANDING MAIN
-         </div>
+            
+         </section>
       </main>);
 }
  
