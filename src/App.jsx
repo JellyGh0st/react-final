@@ -16,7 +16,7 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route index element={<Landing />} />
+        <Route path="/" element={<Landing />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/userPage" element={<UserPage />} />

@@ -34,7 +34,7 @@
 }
 
 
-.greet-box > button {
+.greet-box  button {
    
    height: 70px;
    
@@ -56,7 +56,7 @@
    
  }
  
-.greet-box > button:hover {
+.greet-box  button:hover {
    color: #222222;
    background: white;
    text-shadow: 0.1px 0.1px 1px rgb(0, 0, 0);
