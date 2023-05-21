@@ -1,9 +1,11 @@
+import Greet from "../UI/Molecules/Greet";
+
 const Landing = () => {
    return (  
       <main>
          <section id="main-section">
             
-            LANDING MAIN
+            <Greet/>
             
          </section>
       </main>);

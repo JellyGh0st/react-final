@@ -2,7 +2,7 @@
    "users": [
       {
          "id": 1,
-         "userName": "Pempe",
+         "name": "Pempe",
          "password": 123,
          "role": "user",
          "email": "pempe@bravo.lt",
@@ -10,7 +10,7 @@
       },
       {
          "id": 2,
-         "userName": "Dzeisonas",
+         "name": "Dzeisonas",
          "role": "admin",
          "password": 123,
          "email": "json@bravo.lt",
@@ -18,7 +18,7 @@
       },
       {
          "id": 3,
-         "userName": "Utele",
+         "name": "Utele",
          "password": 123,
          "role": "user",
          "email": "utele@bravo.lt",
@@ -26,7 +26,7 @@
       },
       {
          "id": 4,
-         "userName": "NoobDev",
+         "name": "NoobDev",
          "password": 123,
          "role": "user",
          "email": "bukas@bravo.lt",
@@ -36,39 +36,26 @@
    "questions": [
       {
          "id": 1,
-         "creatorId": 4,
-         "question": "kodėl neveikia react apas?",
-         "likes": 2,
-         "editStatus": false
-         
-      },
-      {
-         "id": 2,
-         "creatorId": 3 ,
-         "question": "Nu tu ir durnas, reactas ne tau?",
-         "upvotes": 0,
-         "editStatus": false
-         
-      }
-   ],
-   "answers": [
-      {
-         "id": 1,
-         "questionId": 4,
-         "creatorId": 4,
-         "answer": "puikus appas",
-         "likes": 2,
-         "editStatus": false
-         
-      },
-      {
-         "id": 2,
-         "questionId": 4,
-         "creatorId": 4,
-         "answer": "taip ir toliau!",
-         "likes": 10,
-         "editStatus": false
+         "userId": 2,
+         "title": "Pavyzdinis klausimas",
+         "question": "How do I create a React component?",
+         "isEdited": false,
+         "answers": [
+            {
+               "id": 1,
+               "userId": 3,
+               "content": "You can create a React component by extending the `React.Component` class.",
+               "upvotes": 2,
+               "downvotes": 0
+            },
+            {
+               "id": 2,
+               "userId": 2,
+               "content": "Alternatively, you can use functional components with the `useState` hook.",
+               "upvotes": 1,
+               "downvotes": 0
+            }
+         ]
       }
    ]
 }
-
