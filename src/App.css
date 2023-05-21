@@ -96,8 +96,8 @@ main {
 
 #main-section {
   background: rgb(238, 238, 238);
-  border-left: 4px solid white;
-  border-right: 4px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
   height: 1000px;
   display: flex;
   justify-content: center;

@@ -1,4 +1,5 @@
 import "../../../styles/greet.css";
+import { Link } from 'react-router-dom';
 
 const Greet = () => {
 
@@ -10,7 +11,9 @@ const Greet = () => {
             <p>Register and join our community to find the all the answers You seek!</p>
          </div>
         
-         <button>Join our community</button>
+         <Link to="/register">
+            <button>Join our community</button>
+         </Link>
          
          
       </div>
