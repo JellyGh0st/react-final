@@ -1,20 +1,27 @@
 
+function Header() {
 
-const Header = () => {
+
    return (
       
    <header>
       <div className="header-nav">
          <div className="header-logo">
-            <h1>BANDZOO</h1>
+            <h3>BANDZOO</h3>
          </div>
+         
          <div className="header-buttons">
-            <button>Log In</button>
-            <button>Sign In</button>
+            <button>Log in</button>
+            <button>Sign in</button>
          </div>
       </div>
    </header>
-     );
+
+   );
 }
  
 export default Header;
+
+
+
+
