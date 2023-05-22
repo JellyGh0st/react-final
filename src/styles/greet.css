@@ -33,11 +33,8 @@
    text-align: center;
 }
 
-
-.greet-box  button {
-   
+.greet-box button {
    height: 70px;
-   
    font-weight: 900;
    font-size: 36px;
    padding: 10px 15px;
@@ -52,16 +49,14 @@
    text-shadow: 0.1px 0.1px 2px rgba(69, 69, 69, 0.318);
    background: rgba(0, 0, 0, 0.127);
    border: 4px solid #ffffff;
- 
-   
  }
  
 .greet-box  button:hover {
    color: #222222;
-   background: white;
+   background: rgb(255, 255, 255);
    text-shadow: 0.1px 0.1px 1px rgb(0, 0, 0);
    box-shadow: 0.1px 0.1px 2px rgba(0, 0, 0, 0.416) inset,0.1px 0.1px 20px rgba(0, 75, 68, 0.16) inset,;
    border: 6px solid #59bedcd8;
    cursor: pointer;
-   
+
  }

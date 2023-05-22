@@ -1,0 +1,103 @@
+header {
+   height: 80px;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   border-bottom: 4px solid #ffffff;
+   background: #c1d2cb;
+   background: linear-gradient(0deg,#aec7bd 0%,#8dc4ba 100%);
+   box-shadow: 0.1px 10px 60px rgba(45, 47, 46, 0.27);
+   display: flex;
+   justify-content: center; 
+   box-sizing: border-box;
+ }
+ 
+.header-nav {
+   width: 100%;
+   color: #ffffff;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: flex-end;
+   padding: 15px 25px;
+   max-width: 1400px;
+ }
+ 
+
+.header-logo {
+  font-family: 'Archivo Black', sans-serif;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(30deg,#2791ca76 0%,#20995830 100%);
+  border: 3px solid rgb(255, 255, 255);
+  height: 40px;
+  box-sizing: border-box;
+  padding: 5px;
+}
+ 
+.header-logo h3 {
+   margin: 0;
+   padding: 0;
+   font-weight: 500;
+   text-shadow: 0.1px 0.1px 2px rgba(0, 0, 0, 0.5) inset;
+   font-size: 36px;
+   letter-spacing: -2px;
+}
+
+.header-links {
+   display: flex;
+   flex-direction: row;
+   align-content: center;
+   align-items: center;
+   
+   padding: 0;
+   height: 40px;
+   box-sizing: border-box;
+}
+.nav-link {
+   color: #ffffff;
+   text-decoration: none;
+   font-size: 24px;
+   padding: 4px 15px;
+}
+   
+.nav-link:hover {
+   color: #d26822;
+   background-color: #ffffffa8;
+   text-decoration: none;
+   font-size: 24px;
+    
+}
+
+ /* BUTTON */
+.header-buttons {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0px;
+}
+ 
+ header button {
+   font-size: 20px;
+   height: 32px;
+   padding: 5px 10px 7px;
+   border: none;
+   margin: 0;
+   border-radius: 1px;
+   box-sizing: border-box;
+   text-decoration: none;
+   font-weight: 500;
+   font-family: 'Montserrat', sans-serif;
+   color: #ffffff;
+   text-align: center;
+   transition: all 0.2s;
+   background-color: rgba(112, 192, 129, 0);
+ }
+ header button:hover {
+   color: #12667f;
+   background-color: #ffffff8a;
+   bottom: 4px;
+   position: relative;
+   font-weight: 600;
+   
+ }

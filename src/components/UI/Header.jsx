@@ -1,3 +1,4 @@
+import "../../styles/header.css"
 import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { LoginContext } from "../../contexts/LoginContext";
@@ -14,30 +15,36 @@ function Header() {
           <h3>BANDZOO</h3>
         </div>
 
-        <div className="header-links">
+        <nav className="header-links">
           {isLoggedIn ? (
             <>
-              <NavLink to="/" >Home</NavLink>
-              <NavLink to="/contacts" >Contacts</NavLink>
-              <NavLink to="/about" >About</NavLink>
+              
+              <NavLink to="/" className="nav-link" >Home</NavLink>
+              <NavLink to="/forum" className="nav-link" >Forum</NavLink>
+              <NavLink to="/contacts" className="nav-link" >Contacts</NavLink>
+              <NavLink to="/about" className="nav-link" >About Us</NavLink>
             </>
-          ) : (
+          ) 
+          : 
+          (
             <>
-              <NavLink to="/" >Home</NavLink>
+              <NavLink to="/" className="nav-link" >Home</NavLink>
+              <NavLink to="/forum" className="nav-link" >Forum</NavLink>
+              <NavLink to="/contacts" className="nav-link" >Contacts</NavLink>
+              <NavLink to="/about" className="nav-link" >About Us</NavLink>
             </>
           )}
-        </div>
+        </nav>
 
         <div className="header-buttons">
           {isLoggedIn ? (
             <>
-              {/* Additional buttons for logged-in users */}
               <button onClick={handleLogout}>Log out</button>
             </>
           ) : (
             <>
-              <NavLink to="/login"><button>Log in</button></NavLink> 
-              <NavLink to="/register"><button>Sign in</button></NavLink> 
+              <NavLink to="/login"><button>LOG IN</button></NavLink> 
+              <NavLink to="/register"><button>SIGN IN</button></NavLink> 
             </>
           )}
         </div>

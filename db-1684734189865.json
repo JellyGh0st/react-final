@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Pempe",
+      "password": 123,
+      "role": "user",
+      "email": "pempe@bravo.lt",
+      "avatarURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Northern-Lapwing-Vanellus-vanellus.jpg/1920px-Northern-Lapwing-Vanellus-vanellus.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Dzeisonas",
+      "role": "admin",
+      "password": 123,
+      "email": "json@gmeil.lt",
+      "avatarURL": "https://www.looper.com/img/gallery/this-is-what-jason-from-friday-the-13th-was-almost-named/intro-1622299712.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Utele",
+      "password": 123,
+      "role": "user",
+      "email": "utele@bravo.lt",
+      "avatarURL": "https://hips.hearstapps.com/hmg-prod/images/praying-mantis-amazing-insects-1595937972.jpg?crop=1.00xw:0.751xh;0,0.227xh&resize=1200:*"
+    },
+    {
+      "id": 4,
+      "name": "NoobDev",
+      "password": 123,
+      "role": "user",
+      "email": "bukas@bravo.lt",
+      "avatarURL": "https://kinfo.lt/wp-content/uploads/2015/01/Jim-Carrey-Dumband-Dumber.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "userId": 2,
+      "title": "Pavyzdinis klausimas",
+      "question": "How do I create a React component?",
+      "isEdited": false,
+      "answers": [
+        {
+          "id": 1,
+          "userId": 3,
+          "content": "You can create a React component by extending the `React.Component` class.",
+          "upvotes": 2,
+          "downvotes": 0
+        },
+        {
+          "id": 2,
+          "userId": 2,
+          "content": "Alternatively, you can use functional components with the `useState` hook.",
+          "upvotes": 1,
+          "downvotes": 0
+        }
+      ]
+    }
+  ]
+}

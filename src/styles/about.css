@@ -1,0 +1,24 @@
+.about-box {
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+   margin: 20px 0;
+   max-width: 1000px;
+   border: 4px solid #ffffff;
+   color: rgb(94, 94, 94);
+   border-radius: 1px;
+   padding:40px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   line-height: 26px;
+   background-color: rgb(211, 211, 211);
+   box-shadow: 0.1px 0.1px 120px rgba(0, 0, 0, 0.154);
+
+}
+
+#about {
+   display: flex;
+   justify-content: center;
+   margin: 20px 0;
+   background-color: #ffffff;
+}

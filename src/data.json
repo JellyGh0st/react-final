@@ -13,7 +13,7 @@
          "name": "Dzeisonas",
          "role": "admin",
          "password": 123,
-         "email": "json@bravo.lt",
+         "email": "json@gmeil.lt",
          "avatarURL": "https://www.looper.com/img/gallery/this-is-what-jason-from-friday-the-13th-was-almost-named/intro-1622299712.jpg"
       },
       {
@@ -33,9 +33,32 @@
          "avatarURL": "https://kinfo.lt/wp-content/uploads/2015/01/Jim-Carrey-Dumband-Dumber.jpg"
       }
    ],
-   "questions": [
+   "posts": [
       {
          "id": 1,
+         "userId": 2,
+         "title": "Pavyzdinis klausimas",
+         "question": "How do I create a React component?",
+         "isEdited": false,
+         "answers": [
+            {
+               "id": 1,
+               "userId": 3,
+               "content": "You can create a React component by extending the `React.Component` class.",
+               "upvotes": 2,
+               "downvotes": 0
+            },
+            {
+               "id": 2,
+               "userId": 2,
+               "content": "Alternatively, you can use functional components with the `useState` hook.",
+               "upvotes": 1,
+               "downvotes": 0
+            }
+         ]
+      },
+      {
+         "id": 2,
          "userId": 2,
          "title": "Pavyzdinis klausimas",
          "question": "How do I create a React component?",
