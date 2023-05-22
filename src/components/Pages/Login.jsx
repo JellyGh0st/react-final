@@ -1,7 +1,9 @@
+import '../../styles/login.css'
+
 const Login = () => {
   return (
     <main>
-      <section id="main-section">
+      <section id="login-main">
         <div>
           <h2>Login</h2>
           <form>

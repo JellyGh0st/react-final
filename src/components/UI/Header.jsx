@@ -21,7 +21,7 @@ function Header() {
               
               <NavLink to="/" className="nav-link" >Home</NavLink>
               <NavLink to="/forum" className="nav-link" >Forum</NavLink>
-              <NavLink to="/contacts" className="nav-link" >Contacts</NavLink>
+              <NavLink to="/contacts" className="nav-link" >Contact</NavLink>
               <NavLink to="/about" className="nav-link" >About Us</NavLink>
             </>
           ) 
@@ -30,8 +30,10 @@ function Header() {
             <>
               <NavLink to="/" className="nav-link" >Home</NavLink>
               <NavLink to="/forum" className="nav-link" >Forum</NavLink>
-              <NavLink to="/contacts" className="nav-link" >Contacts</NavLink>
               <NavLink to="/about" className="nav-link" >About Us</NavLink>
+              <NavLink to="/contacts" className="nav-link" >Contact</NavLink>
+              <NavLink to="/userPage" className="nav-link" >User</NavLink>
+              
             </>
           )}
         </nav>
@@ -39,12 +41,13 @@ function Header() {
         <div className="header-buttons">
           {isLoggedIn ? (
             <>
+              {/* Additional buttons for logged-in users */}
               <button onClick={handleLogout}>Log out</button>
             </>
           ) : (
             <>
-              <NavLink to="/login"><button>LOG IN</button></NavLink> 
-              <NavLink to="/register"><button>SIGN IN</button></NavLink> 
+              <NavLink to="/login"><button>Log In</button></NavLink> 
+              <NavLink to="/register"><button>Register</button></NavLink> 
             </>
           )}
         </div>

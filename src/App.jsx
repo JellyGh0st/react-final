@@ -11,6 +11,7 @@ import About from "./components/Pages/About";
 import Contacts from "./components/Pages/Contacts";
 
 
+
 function App() {
   return (
     <>
@@ -23,6 +24,7 @@ function App() {
         <Route path="/forum" element={<Forum />} />
         <Route path="/about" element={<About />} />
         <Route path="/contacts" element={<Contacts />} />
+        <Route path="/userPage" element={<UserPage />} />
       </Routes>
       <Footer />
     </>

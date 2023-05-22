@@ -6,11 +6,12 @@ footer {
    box-shadow: 0.1px 1px 60px rgba(45, 47, 46, 0.27);
    min-height:13vh;
    color: aliceblue;
+   padding-top: 0 ;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   border-top: 1px solid rgba(255, 255, 255, 0.364) ;
+   border-top: 1px dashed rgba(255, 255, 255, 0.398) ;
 }
  
 .footer-content {
@@ -32,6 +33,7 @@ footer ul {
 
 footer li {
   display: inline-block;
+  margin: 5px;
 }
 
 footer a {
@@ -41,7 +43,7 @@ footer a {
 
 footer a:hover {
   
-  color: rgb(227, 206, 163);
+  color: rgb(88, 86, 123);
 }
 
 .footer-bottom {
@@ -50,6 +52,7 @@ footer a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 .footer-bottom p {
   margin: 5px;

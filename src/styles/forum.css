@@ -1,13 +1,15 @@
 #forum {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
- }
- 
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(158, 254, 218, 0.303);
+  box-shadow: 1px 1px 500px rgba(0, 0, 0, 0.257);
+  border: 1px dashed rgba(255, 255, 255, 0.443);
+}
 
- 
- .user-cards {
-   display: grid;
-   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-   gap: 20px;
- }
+.user-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}

@@ -3,14 +3,7 @@ import "@fortawesome/fontawesome-free/css/all.css";
 const Footer = () => {
   return (
       <footer>
-         <div className="footer-social">
-               <ul>
-                  <li><a href="#"><i className="fab fa-facebook"></i></a></li>
-                  <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                  <li><a href="#"><i className="fab fa-instagram"></i></a></li>
-                  <li><a href="#"><i className="fab fa-linkedin"></i></a></li>
-               </ul>
-            </div>
+         
          <div className="footer-content">
             <div className="footer-links">
                <ul>
@@ -21,11 +14,18 @@ const Footer = () => {
                   <li><a href="/contact">Contact</a></li>
                </ul>
             </div>
-            
+            <div className="footer-social">
+               <ul>
+                  <li><a href="#"><i className="fab fa-facebook"></i></a></li>
+                  <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i className="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i className="fab fa-linkedin"></i></a></li>
+               </ul>
+            </div>
          </div>
          <div className="footer-bottom">
             <p>&copy; 2023 Your Website. All right reserved</p>
-            <p>Designed by BandZoo</p>
+            {/* <p>Designed by BandZoo</p> */}
             
             
          </div>
