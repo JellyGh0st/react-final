@@ -1,0 +1,45 @@
+#login-main {
+   text-align: center;
+   font-family: 'Inconsolata', monospace;
+   height: 250px;
+   max-width: 450px;
+   border:1px dashed #ffffff43;
+   color: white;
+   border-radius: 1px;
+   padding:40px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: linear-gradient(0deg,#689985 0%,#5b9591 100%);
+   box-shadow: 0.1px 0.1px 120px rgba(0, 0, 0, 0.258);
+
+}
+
+#login-main form div {
+   display:flex;
+   justify-content: space-between;
+   
+}
+#login-main form  {
+   display:flex;
+   flex-direction: column;
+   gap:4px;
+}
+
+input {
+   margin-left: 5px;
+   box-sizing: border-box;
+}
+
+input:focus {
+   outline: none;
+   border: 1px solid #6f30a7af; /* Example border style */
+ }
+ 
+
+ input:active {
+   box-shadow: 0 0 1px rgba(30, 9, 9, 0.504); /* Example box shadow */
+ }
+
+
+

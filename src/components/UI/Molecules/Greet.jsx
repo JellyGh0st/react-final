@@ -7,7 +7,7 @@ const Greet = () => {
       <div className="greet-box">
 
          <div className="greet-text">
-            <h2>WELCOME</h2>
+            <h2>WELCOME TO BANDZOO</h2>
             <p>Register and join our community to find the all the answers You seek!</p>
          </div>
         

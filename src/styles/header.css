@@ -1,0 +1,113 @@
+header {
+   height: 70px;
+   position: fixed;
+   top: 0;
+   background: linear-gradient(0deg,#5a998c  0%,#4fa997 100%);
+   box-shadow: 0.1px 1px 60px rgba(45, 47, 46, 0.27);
+   display: flex;
+   justify-content: center; 
+   box-sizing: border-box;
+   width: 100%;
+   border-bottom: 1px dashed rgba(255, 255, 255, 0.451);
+ }
+ 
+.header-nav {
+   width: 100%;
+   color: #ffffff;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: flex-end;
+   padding: 15px 25px;
+   max-width: 1400px;
+ }
+ 
+
+.header-logo {
+  font-family: 'Archivo Black', sans-serif;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(120deg,#788d98 0% ,#3972bd 100% ); 
+  box-shadow: 0.2px 0.2px 5px rgba(1, 44, 104, 0.334) inset;
+  border: 1px solid rgba(255, 255, 255, 0.694);
+  height: 40px;
+  box-sizing: border-box;
+  padding: 5px 7px;
+}
+.header-logo:hover {
+   border: 1px dashed rgba(255, 255, 255, 0.694);
+}
+
+
+.header-logo h3 {
+   margin: 0;
+   padding: 0;
+   font-weight: 500;
+   text-shadow: 0.2px 0.2px 3px rgba(0, 0, 0, 0.271);
+   font-size: 36px;
+   letter-spacing: -2px;
+}
+
+.header-links {
+   display: flex;
+   flex-direction: row;
+
+   padding: 0;
+   height: 30px;
+   
+}
+.nav-link {
+   font-family: 'Inconsolata', monospace;
+   display: flex;
+   align-items: center;
+   height: 40px;
+   color: #ffffff;
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 500;
+   padding: 0px 10px;
+   background-color: none;   
+}
+   
+.nav-link:hover {
+   color: #32394a;
+   text-decoration: none;
+   padding: 2px 10px;
+   
+   height:36px;
+    
+}
+
+ /* BUTTON */
+.header-buttons {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0px;
+}
+ 
+ header button {
+   font-size: 16px;
+   height: 32px;
+   padding: 3px 10px 7px;
+   border: none;
+   margin: 0;
+   border-radius: 1px;
+   box-sizing: border-box;
+   text-decoration: none;
+   font-weight: 500;
+   font-family: 'Inconsolata', monospace;
+   color: #ffffff;
+   text-align: center;
+   transition: all 0.2s;
+   background-color: rgba(112, 192, 129, 0);
+ }
+ header button:hover {
+   color: #2b354f;
+   text-decoration: none;
+
+   
+   
+   
+   
+ }
