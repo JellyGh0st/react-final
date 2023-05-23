@@ -10,7 +10,7 @@
       },
       {
          "id": 2,
-         "name": "Dzeisonas",
+         "name": "Džeisonas",
          "role": "admin",
          "password": "123",
          "email": "json@gmeil.lt",
@@ -31,59 +31,74 @@
          "role": "user",
          "email": "bukas@bravo.lt",
          "avatarURL": "https://kinfo.lt/wp-content/uploads/2015/01/Jim-Carrey-Dumband-Dumber.jpg"
+      },
+      {
+         "id": 5,
+         "name": "Giovani",
+         "password": "123",
+         "role": "user",
+         "email": "giovani@meow.lt",
+         "avatarURL": "https://preview.redd.it/u2jvkn6sdg481.jpg?auto=webp&s=bce9840f78c1347b05d2eec3ebed1ad4bca22195"
       }
    ],
    "posts": [
       {
          "id": 1,
-         "userId": 4,
-         "title": "Nesusije su React",
-         "question": "Ka veikiat?",
+         "userId": 1,
+         "title": "STICKY: Forumo taisyklės!",
+         "question": "For evrybody whos new here - Labas! Here are forum rules: 1. Seriousness is strictly prohibited, unless you're a penguin. \n 2. The Pun Police: Excessive puns are allowed, but offenders must suffer through a mandatory 15-minute \"pun\"-ishment session. May the wordplay be with you!\n\n3. Dress Code: All forum members must wear a silly hat while typing. Failure to comply will result in the automatic substitution of all your words with \"banana.\"\n\n4. Unicorn Appreciation Hour: Every day at 3 PM, everyone is required to share their favorite unicorn-related meme. Magical sparkles are highly encouraged.\n\n5. Dance-Off Challenge: Forum disputes shall be resolved through epic dance-offs. Winners shall be awarded with eternal glory, and losers must admit defeat with a graceful twirl.",
          "isEdited": false,
          "answers": [
             {
                "id": 1,
                "userId": 3,
-               "content": "You can create a React component by extending the `React.Component` class.",
+               "content": "Pabandykit nesilaikyti taisyklių ir pamatysit kas bus.",
                "upvotes": 2,
                "downvotes": 0
             },
             {
-               "id": 2,
-               "userId": 2,
-               "content": "Alternatively, you can use functional components with the `useState` hook.",
-               "upvotes": 1,
+               "id": 1,
+               "userId": 5,
+               "content": "Rimtai tu čia seni.",
+               "upvotes": 2,
                "downvotes": 0
             }
          ]
       },
       {
          "id": 2,
-         "userId": 3,
-         "title": "O kas jei rasiu?",
-         "question": "O jei tikrai rasiu?",
+         "userId": 4,
+         "title": "Nesusija su React",
+         "question": "Ka veikiat?",
          "isEdited": false,
          "answers": [
             {
                "id": 1,
                "userId": 3,
-               "content": "Pabandyk ir pamatysi kas bus.",
+               "content": "Krapštau nosį.",
                "upvotes": 2,
+               "downvotes": 0
+            },
+            {
+               "id": 2,
+               "userId": 2,
+               "content": "Stebiu tave...",
+               "upvotes": 1,
                "downvotes": 0
             }
          ]
       },
       {
          "id": 3,
-         "userId": 1,
-         "title": "O kas jei rasiu?",
-         "question": "O jei tikrai rasiu?",
+         "userId": 4,
+         "title": "Funkcionalumai?",
+         "question": "Gal kas matėt funkcionalumus? Pasileidau app'ą šį ryt, per naktį puse dingo?",
          "isEdited": false,
          "answers": [
             {
                "id": 1,
                "userId": 3,
-               "content": "Pabandyk ir pamatysi kas bus.",
+               "content": "Ištrink node_module folderį ir pervadink visus .js ir .jsx failus i .txt formatą.. Turėtų išsispręsti..",
                "upvotes": 2,
                "downvotes": 0
             }
@@ -92,14 +107,14 @@
       {
          "id": 4,
          "userId": 2,
-         "title": "O kas jei rasiu?",
-         "question": "O jei tikrai rasiu?",
+         "title": "Asmeninis klausimas...",
+         "question": "O kur kabutės? Negi neskiriat backtiko nuo double-komos? ",
          "isEdited": false,
          "answers": [
             {
                "id": 1,
                "userId": 3,
-               "content": "Pabandyk ir pamatysi kas bus.",
+               "content": "Aha man ir idomu..?",
                "upvotes": 2,
                "downvotes": 0
             }
@@ -107,15 +122,15 @@
       },
       {
          "id": 5,
-         "userId": 2,
-         "title": "O kas jei rasiu?",
-         "question": "O jei tikrai rasiu?",
+         "userId": 5,
+         "title": "Kur čia vakarėlis?",
+         "question": "Girdėjau vakar parke muzika grojo per puse Vilniaus? Kažką praleidau?",
          "isEdited": false,
          "answers": [
             {
                "id": 1,
                "userId": 3,
-               "content": "Pabandyk ir pamatysi kas bus.",
+               "content": "Čia tik roko koncertas Vingio parke. Nieko nepraleidai.  Tik tilto siūbavimą",
                "upvotes": 2,
                "downvotes": 0
             }

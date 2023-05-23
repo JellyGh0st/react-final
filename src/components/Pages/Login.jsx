@@ -35,7 +35,7 @@ const Login = () => {
     <main>
       <section id="login-main">
         <div>
-          <h2>Login</h2>
+          
           <form onSubmit={(e)=> {formSubmit(e)}}>
             <div>
               <label htmlFor="username">Username:</label>
@@ -56,7 +56,7 @@ const Login = () => {
               onChange={(e)=> {inputHandler(e)}}
               />
             </div>
-            <input type="submit" value="Log In"/>
+            <input className='submit-input' type="submit" value="Log In"/>
           </form>
           {
             failedLogIn  && <h2>Neteisingos įvestys</h2>

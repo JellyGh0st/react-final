@@ -1,8 +1,8 @@
 #login-main {
    text-align: center;
    font-family: 'Inconsolata', monospace;
-   height: 250px;
-   max-width: 450px;
+   height: 100px;
+   max-width: 350px;
    border:1px dashed #ffffff43;
    color: white;
    border-radius: 1px;
@@ -12,7 +12,7 @@
    align-items: center;
    background: linear-gradient(0deg,#689985 0%,#5b9591 100%);
    box-shadow: 0.1px 0.1px 120px rgba(0, 0, 0, 0.258);
-
+   
 }
 
 #login-main form div {
@@ -23,6 +23,7 @@
 #login-main form  {
    display:flex;
    flex-direction: column;
+   align-items: center;
    gap:4px;
 }
 
@@ -38,8 +39,37 @@ input:focus {
  
 
  input:active {
-   box-shadow: 0 0 1px rgba(30, 9, 9, 0.504); /* Example box shadow */
+   box-shadow: 0 0 1px rgba(30, 9, 9, 0.504);
  }
+
+.submit-input {
+   width: 100px;
+   height: 30px;
+   margin: 20px 0;
+   font-weight: 900;
+   font-size: 15px;
+   padding:  5px ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-sizing: border-box;
+   text-decoration: none;
+   font-family: 'Inconsolata', monospace;
+   color: #ffffff;
+   transition: all 0.2s;
+   text-shadow: 0.1px 0.1px 2px rgba(69, 69, 69, 0.318);
+   background: rgba(0, 0, 0, 0.127);
+   border: 2px solid #ffffff;
+}
+
+.submit-input:hover {
+   
+   color: #222222;
+   background: rgba(255, 255, 255, 0.904);
+   box-shadow: 0.1px 0.1px 2px rgba(0, 0, 0, 0.416) inset,0.1px 0.1px 20px rgba(0, 75, 68, 0.16) inset,;
+   border: 2px solid #59bedcd8;
+   cursor: pointer;
+}
 
 
 

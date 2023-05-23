@@ -1,16 +1,35 @@
 #contact-box {
-   font-family: 'Nunito', sans-serif;
+   font-family: 'Inconsolata', monospace;
    text-align: center;
    margin: 20px 0;
-   max-width: 1200px;
-   border: 1px solid #ffffff5c;
-   color: rgb(255, 255, 255);
+   max-width: 700px;
+   border: 1px dashed #ffffff5c;
+   color: rgb(12, 12, 12);
    padding:40px;
    display: flex;
    flex-direction: column;
    align-items: center;
    line-height: 26px;
-   background: linear-gradient(0deg,#689985 0%,#5b9591 100%);
+   border-radius: 3px;
+   background-color: rgba(158, 254, 219, 0.373);
    box-shadow: 0.1px 0.1px 120px rgba(0, 0, 0, 0.258);
 
+}
+
+#contact-box h2 {
+   font-size: 32px;
+   margin-top: 0;
+   
+}
+#contact-box span {
+   font-size: 14px;
+   margin: 0; 
+}
+
+
+#contact-box p {
+   font-size: 20px;
+   margin-top: 0;
+   font-weight: 200;
+   
 }

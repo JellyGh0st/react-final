@@ -19,22 +19,23 @@ const PostCard = ({ post, onClick }) => {
 
   return (
     <div className="post-card">
-      <div className="avatar">
-        <img src={avatarURL} alt="user photo" />
-        <p>{user ? user.name : "Unknown author"}</p>
-      </div>
-      <Link to={`/postPage/${id}`} activeClassName="active" onClick={handlePostClick}>
-        <div>
-          <h4>{title}</h4>
-          <p>{question}</p>
-        </div>
-      </Link>
+      	<div className="avatar">
+        		<img src={avatarURL} alt="user photo" />
+        		<p>{user ? user.name : "Unknown author"}</p>
+      	</div>
 
-      <div className="post-vote">
-        <button>Upvote</button>
-        <span>0</span>
-        <button>Downvote</button>
-      </div>
+      	<Link to={`/postPage/${id}`} className="custom-link" activeClassName="active" onClick={handlePostClick}>
+    		<div className="post-text-area">
+          	<h4>{title}:</h4>
+          	<p>{question}</p>
+        	</div>
+      	</Link>
+
+      	<div className="post-vote">
+        		<button className="but-up">&#9650;</button>
+        		<span>0</span>
+        		<button className="but-down">&#9660;</button>
+      	</div>
     </div>
   );
 };
