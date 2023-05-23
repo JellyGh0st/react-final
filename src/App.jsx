@@ -9,6 +9,7 @@ import UserPage from "./components/Pages/UserPage";
 import Forum from "./components/Pages/Forum";
 import About from "./components/Pages/About";
 import Contacts from "./components/Pages/Contacts";
+import QuestionPage from "./components/Pages/QuestionPage";
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/postPage" element={<QuestionPage />} />
         <Route path="/userPage" element={<UserPage />} />
         <Route path="/forum" element={<Forum />} />
         <Route path="/about" element={<About />} />
