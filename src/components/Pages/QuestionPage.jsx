@@ -5,16 +5,16 @@ import PostsContext from "../../contexts/PostsContext";
 import Answer from "../UI/Molecules/Answer";
 
 const QuestionPage = () => {
-   
+
   const { postId } = useParams();
   const { posts } = useContext(PostsContext);
 
   // Find the selected post by postId
   const selectedPost = posts.find((post) => post.id === parseInt(postId));
 
-  if (!selectedPost) {
-    return <div>Loading...</div>;
-  }
+//   if (!selectedPost) {
+//     return <div>Loading...</div>;
+//   }
 
   const { title, question, answers } = selectedPost;
 

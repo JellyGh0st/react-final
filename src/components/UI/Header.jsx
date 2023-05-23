@@ -1,60 +1,69 @@
-import "../../styles/header.css"
-import React, { useContext } from "react";
-import { NavLink } from "react-router-dom";
-import { LoginContext } from "../../contexts/LoginContext";
+import "../../styles/header.css";
+import { useContext } from "react";
+import UsersContext from "../../contexts/UsersContext";
+import { Link, NavLink } from "react-router-dom";
+
 
 function Header() {
 
-  const { isLoggedIn, handleLogout } = useContext(LoginContext);
+	const {currentUser} = useContext(UsersContext);
 
-  return (
+  
 
-    <header>
-      <div className="header-nav">
-        <div className="header-logo">
-          <h3>BANDZOO</h3>
-        </div>
+  	return (
+    	<header>
+      	<div className="header-nav">
+        		<div className="header-logo">
+          		<h3>BANDZOO</h3>
+        		</div>
 
-        <nav className="header-links">
-          {isLoggedIn ? (
-            <>
-              
-              <NavLink to="/" className="nav-link" >Home</NavLink>
-              <NavLink to="/forum" className="nav-link" >Forum</NavLink>
-              <NavLink to="/about" className="nav-link" >About Us</NavLink>
-              <NavLink to="/contacts" className="nav-link" >Contact</NavLink>
-              <NavLink to="/userPage" className="nav-link" >User</NavLink>
-            </>
-          ) 
-          : 
-          (
-            <>
-              <NavLink to="/" className="nav-link" >Home</NavLink>
-              <NavLink to="/forum" className="nav-link" >Forum</NavLink>
-              <NavLink to="/about" className="nav-link" >About Us</NavLink>
-              <NavLink to="/contacts" className="nav-link" >Contact</NavLink>
-              <NavLink to="/userPage" className="nav-link" >User</NavLink>
-              
-            </>
-          )}
-        </nav>
+        		<nav className="header-links">
+          		{ currentUser ? (
+            		<>
+              			<NavLink to="/" className="nav-link">Home</NavLink>
+              			<NavLink to="/forum" className="nav-link">Forum</NavLink>
+              			<NavLink to="/about" className="nav-link">About Us</NavLink>
+              			<NavLink to="/contacts" className="nav-link">Contact</NavLink>
+              			
+            		</>
+          			) 
+						:
+						(
+						<>
+					 		<NavLink to="/" className="nav-link">Home</NavLink>
+					 		<NavLink to="/forum" className="nav-link">Forum</NavLink>
+					 		<NavLink to="/about" className="nav-link">About Us</NavLink>
+					 		<NavLink to="/contacts" className="nav-link">Contact</NavLink>
+			  			</>
+			  			)
+					} 
+        		</nav>
 
-        <div className="header-buttons">
-          {isLoggedIn ? (
-            <>
-              
-            <button onClick={handleLogout}>Log out</button>
-            </>
-          ) : (
-            <>
-              <NavLink to="/login"><button>Log In</button></NavLink> 
-              <NavLink to="/register"><button>Register</button></NavLink> 
-            </>
-          )}
-        </div>
-      </div>
-    </header>
-  );
+        		<div className="header-buttons">
+          			 {	currentUser ? (
+							<div className="logged-userhead">
+							<div>
+								<img src="" alt="" />
+								<p>logged user</p>
+							</div>
+              			<button >Log out</button>
+							</div>
+            	
+          			) 
+						: 
+						( 
+              			<div className="sign-buttons">	
+								<Link to="/login"><button>Log In</button></Link>
+      						<Link to="/register"><button>Register</button></Link>
+							</div>
+          			 )
+					} 
+        		</div>
+      	</div>
+    	</header>
+
+		
+  	);
 }
 
 export default Header;
