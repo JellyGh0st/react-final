@@ -24,8 +24,8 @@ const Footer = () => {
             </div>
          </div>
          <div className="footer-bottom">
-            <p>&copy; 2023 Your Website. All right reserved</p>
-            {/* <p>Designed by BandZoo</p> */}
+            <p>&copy; 2023 BandZoo. All rights reversed</p>
+            
             
             
          </div>

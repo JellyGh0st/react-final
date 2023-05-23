@@ -3,7 +3,7 @@ const Register = () => {
       <main>
       <section id="login-main">
          <div>
-            <h2>Login</h2>
+            <h2>Register</h2>
                <form>
                   <div>
                      <label htmlFor="username">Username:</label>
