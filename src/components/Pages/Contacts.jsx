@@ -12,18 +12,18 @@ const Contacts = () => {
           </p>
           <div className="contact-details">
             <div className="contact-item">
-              <span className="contact-label">Address:</span>
+              <span className="contact-label">Address: </span>
               <span className="contact-value">
-                123 Main Street, City, Country
+                777 React Street, React City,  React Country
               </span>
             </div>
             <div className="contact-item">
-              <span className="contact-label">Phone:</span>
-              <span className="contact-value">+1 234 567 890</span>
+              <span className="contact-label">Phone: </span>
+              <span className="contact-value">+7 777 777 777</span>
             </div>
             <div className="contact-item">
-              <span className="contact-label">Email:</span>
-              <span className="contact-value">info@example.com</span>
+              <span className="contact-label">Email: </span>
+              <span className="contact-value">info@BandZoo.com</span>
             </div>
           </div>
         </div>
