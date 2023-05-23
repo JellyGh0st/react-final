@@ -1,35 +1,37 @@
-import "../../styles/forum.css";
+import React, { useContext, useState } from "react";
 import PostCard from "../UI/Molecules/PostCard";
-import { useContext } from "react";
+import QuestionPage from "../Pages/QuestionPage";
 import PostsContext from "../../contexts/PostsContext";
-import UsersContext from "../../contexts/UsersContext";
+import "../../styles/forum.css";
 
 const Forum = () => {
-
   const { posts } = useContext(PostsContext);
-  const { users } = useContext(UsersContext);
+  const [selectedPost, setSelectedPost] = useState(null);
+
+  const handlePostClick = (post) => {
+    setSelectedPost(post);
+  };
 
   return (
-      <main>
-         <section id="forum">
-            <div id="forum-posts">
-               <h2>General discussion:</h2>
+    <main>
+      <section id="forum">
+        <div id="forum-posts">
+          <h2>General discussion:</h2>
 
-               <div className="user-cards">
-                  {  posts.map((post) => (
-                     <PostCard 
-                        key={post.id} 
-                        post={post}
-                        users={users} 
-                     />
-                  ))
-                  }  
-               </div>
+          <div className="user-cards">
+            {posts.map((post) => (
+               <PostCard 
+                  key={post.id} 
+                  post={post} 
+                  onClick={handlePostClick} />
+            ))}
+          </div>
+        </div>
+      </section>
 
-            </div>
-         </section>
-      </main>
-   );
+      {selectedPost && <QuestionPage post={selectedPost} />}
+    </main>
+  );
 };
 
 export default Forum;

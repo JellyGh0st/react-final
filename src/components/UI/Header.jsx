@@ -43,7 +43,7 @@ function Header() {
           {isLoggedIn ? (
             <>
               
-              <button onClick={handleLogout}>Log out</button>
+            <button onClick={handleLogout}>Log out</button>
             </>
           ) : (
             <>
