@@ -59,23 +59,64 @@
       },
       {
          "id": 2,
-         "userId": 2,
-         "title": "Pavyzdinis klausimas",
-         "question": "How do I create a React component?",
+         "userId": 3,
+         "title": "O kas jei rasiu?",
+         "question": "O jei tikrai rasiu?",
          "isEdited": false,
          "answers": [
             {
                "id": 1,
                "userId": 3,
-               "content": "You can create a React component by extending the `React.Component` class.",
+               "content": "Pabandyk ir pamatysi kas bus.",
                "upvotes": 2,
                "downvotes": 0
-            },
+            }
+         ]
+      },
+      {
+         "id": 3,
+         "userId": 1,
+         "title": "O kas jei rasiu?",
+         "question": "O jei tikrai rasiu?",
+         "isEdited": false,
+         "answers": [
             {
-               "id": 2,
-               "userId": 2,
-               "content": "Alternatively, you can use functional components with the `useState` hook.",
-               "upvotes": 1,
+               "id": 1,
+               "userId": 3,
+               "content": "Pabandyk ir pamatysi kas bus.",
+               "upvotes": 2,
+               "downvotes": 0
+            }
+         ]
+      },
+      {
+         "id": 4,
+         "userId": 2,
+         "title": "O kas jei rasiu?",
+         "question": "O jei tikrai rasiu?",
+         "isEdited": false,
+         "answers": [
+            {
+               "id": 1,
+               "userId": 3,
+               "content": "Pabandyk ir pamatysi kas bus.",
+               "upvotes": 2,
+               "downvotes": 0
+            }
+         ]
+      },
+      {
+         "id": 5,
+         "userId": 2,
+         "title": "O kas jei rasiu?",
+         "question": "O jei tikrai rasiu?",
+         "isEdited": false,
+         "answers": [
+            {
+               "id": 1,
+               "userId": 3,
+               "content": "Pabandyk ir pamatysi kas bus.",
+               "upvotes": 2,
                "downvotes": 0
             }
          ]

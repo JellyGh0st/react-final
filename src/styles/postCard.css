@@ -1,6 +1,41 @@
 .post-card {
-
+   max-width: 1000px;
+   height: 140px;
    background-color: rgb(255, 255, 255);
-   padding: 10px;
-   border: 1px solid blanchedalmond
+   padding: 15px;
+   border: 1px dashed rgb(142, 129, 191);
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
 }
+
+.avatar {
+   width: 15%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: bisque;
+   flex-direction: column;
+}
+
+.avatar p {
+   margin: 0;
+}
+
+.avatar img {
+   width:90%;
+   height: 90%;
+   object-fit: cover;
+   border-radius: 70px;
+   border: 1px dashed violet;
+}
+
+.post-vote {
+   background-color: black;
+   width: 15%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+

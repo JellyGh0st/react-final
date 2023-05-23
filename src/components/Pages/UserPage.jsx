@@ -1,5 +1,5 @@
 import '../../styles/userPage.css';
-import React, { useContext } from "react";
+import  { useContext } from "react";
 import UsersContext from "../../contexts/UsersContext";
 
 const UsersProfile = () => {
