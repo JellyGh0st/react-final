@@ -1,5 +1,5 @@
 import "./styles/App.css";
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/UI/Header";
 import Footer from "./components/UI/Footer";
 import Landing from "./components/Pages/Landing";
@@ -11,23 +11,24 @@ import About from "./components/Pages/About";
 import Contacts from "./components/Pages/Contacts";
 import QuestionPage from "./components/Pages/QuestionPage";
 
-
-
 function App() {
   return (
     <>
       <Header />
-      <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/postPage" element={<QuestionPage />} />
-        <Route path="/userPage" element={<UserPage />} />
-        <Route path="/forum" element={<Forum />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contacts" element={<Contacts />} />
-        <Route path="/userPage" element={<UserPage />} />
-      </Routes>
+
+      
+        <Routes>
+          <Route path="/" element={<Landing />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contacts" element={<Contacts />} />
+          <Route path="/userPage" element={<UserPage />} />
+          <Route path="/forum" element={<Forum />} />
+          <Route path="/postPage/:postId" element={<QuestionPage />} />
+        </Routes>
+      
+
       <Footer />
     </>
   );

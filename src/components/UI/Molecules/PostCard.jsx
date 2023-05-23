@@ -1,36 +1,35 @@
-import React from "react";
+import React, { useContext } from "react";
+import { Link } from "react-router-dom";
+import UsersContext from "../../../contexts/UsersContext";
 import "../../../styles/postCard.css";
-import { NavLink } from "react-router-dom";
 
-const PostCard = ({ post, users }) => {
-  const { title, question, answers, userId } = post;
+const PostCard = ({ post, onClick }) => {
+
+  const { users } = useContext(UsersContext);
+
+  const { id, title, question, userId } = post;
+  
 
   const user = users.find((user) => user.id === userId);
   const avatarURL = user ? user.avatarURL : "";
+
+  const handlePostClick = () => {
+    onClick(post);
+  };
 
   return (
     <div className="post-card">
       <div className="avatar">
         <img src={avatarURL} alt="user photo" />
-        <p>author</p>
+        <p>{user ? user.name : "Unknown author"}</p>
       </div>
-      <NavLink to="/postPage" activeClassName="active">
-      <div>
-        <h4>{title}</h4>
-        <p>{question}</p>
-        {answers.length > 0 && (
-          <div className="answers">
-            <h4>Answers:</h4>
-            <div>
-              {answers.map((answer) => (
-                <p key={answer.id}>{answer.content}</p>
-              ))}
-            </div>
-          </div>
-          )
-        }
-      </div>
-      </NavLink>
+      <Link to={`/postPage/${id}`} activeClassName="active" onClick={handlePostClick}>
+        <div>
+          <h4>{title}</h4>
+          <p>{question}</p>
+        </div>
+      </Link>
+
       <div className="post-vote">
         <button>Upvote</button>
         <span>0</span>
