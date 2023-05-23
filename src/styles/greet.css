@@ -5,21 +5,23 @@
    max-width: 450px;
    border:1px dashed #bebebeaf;
    color: white;
-   border-radius: 1px;
+   border-radius: 3px;
    padding:40px;
    display: flex;
    flex-direction: column;
    align-items: center;
    background: linear-gradient(0deg,#689985 0%,#5b9591dc 100%);
    box-shadow: 0.1px 0.1px 120px rgba(0, 0, 0, 0.258);
+
    
 }
 
 .greet-box h2 {
    margin: 0px 0 16px ;
-   font-size: 50px;
+   font-size: 52px;
    font-weight: 800;
    line-height: 45px;
+   word-spacing: -15px;
 }
 .greet-box p {
    margin: 15px 0 ;

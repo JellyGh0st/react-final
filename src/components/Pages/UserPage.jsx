@@ -1,29 +1,35 @@
 import '../../styles/userPage.css';
-import  { useContext } from "react";
+import { useContext } from "react";
 import UsersContext from "../../contexts/UsersContext";
 
 const UsersProfile = () => {
-  const { users } = useContext(UsersContext);
+  const { currentUser } = useContext(UsersContext);
 
-  // Assume you have a way to retrieve the logged-in user's ID or other unique identifier
-  const loggedInUserId = 1;
+  return (  
 
-  // Find the logged-in user in the users array
-  const currentUser = users.find(user => user.id === loggedInUserId);
+    <main>
+      <div className="user-page">
+        <h2>Profile:</h2>
+        {currentUser ? (
+          <div>
+            <img src={currentUser.avatarURL} alt={currentUser.name} />
+            <h3>{currentUser.name}</h3>
+            <p>Email: {currentUser.email}</p>
+            <p>Role: {currentUser.role}</p>
+           </div>
+          )
+          : 
+          (
+          <p>No user logged in</p>
+          )
+        }
+      </div>
 
-  return (
-    <div>
-      <h2>User Profile</h2>
-      {currentUser && (
-        <div>
-          <h3>{currentUser.name}</h3>
-          <p>Email: {currentUser.email}</p>
-          <p>Role: {currentUser.role}</p>
-          <img src={currentUser.avatarURL} alt={currentUser.name} />
-        </div>
-      )}
-    </div>
+    </main>
+
+      
   );
 };
 
 export default UsersProfile;
+

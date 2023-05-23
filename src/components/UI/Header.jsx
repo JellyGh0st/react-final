@@ -25,6 +25,7 @@ function Header() {
               			<NavLink to="/forum" className="nav-link">Forum</NavLink>
               			<NavLink to="/about" className="nav-link">About Us</NavLink>
               			<NavLink to="/contacts" className="nav-link">Contact</NavLink>
+              			<NavLink to="/userPage" className="nav-link">User</NavLink>
             		</>
 						:
 						<>

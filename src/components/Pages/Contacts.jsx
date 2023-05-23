@@ -5,7 +5,7 @@ const Contacts = () => {
     <main>
       <section id="contact-box">
         <div>
-          <h2>CONTACTS</h2>
+          <h2>Contact us:</h2>
           <p>
             For any inquiries or questions, please contact us using the
             information below:

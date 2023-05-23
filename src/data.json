@@ -10,7 +10,7 @@
       },
       {
          "id": 2,
-         "name": "Dzeisonas",
+         "name": "Džeisonas",
          "role": "admin",
          "password": "123",
          "email": "json@gmeil.lt",
@@ -114,7 +114,7 @@
             {
                "id": 1,
                "userId": 3,
-               "content": "Pabandyk ir pamatysi kas bus.",
+               "content": "Aha man ir idomu..?",
                "upvotes": 2,
                "downvotes": 0
             }
