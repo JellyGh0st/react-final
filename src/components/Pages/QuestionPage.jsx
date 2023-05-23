@@ -5,6 +5,7 @@ import PostsContext from "../../contexts/PostsContext";
 import Answer from "../UI/Molecules/Answer";
 
 const QuestionPage = () => {
+   
   const { postId } = useParams();
   const { posts } = useContext(PostsContext);
 

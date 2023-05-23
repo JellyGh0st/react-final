@@ -6,6 +6,7 @@ import "../../styles/forum.css";
 
 const Forum = () => {
   const { posts } = useContext(PostsContext);
+  
   const [selectedPost, setSelectedPost] = useState(null);
 
   const handlePostClick = (post) => {
