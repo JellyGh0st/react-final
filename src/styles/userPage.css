@@ -12,14 +12,18 @@
    align-items: center;
    line-height: 26px;
    border-radius: 3px;
-   background-color: rgba(158, 254, 219, 0.373);
+   background: linear-gradient(0deg,#68998550 0%,#5b9591c9 100%);
    box-shadow: 0.1px 0.1px 120px rgba(0, 0, 0, 0.258);
 
 }
 
+h2 {
+   color: white;
+}
+
 .user-page img {
    border-radius: 10px;
-   border: 1px dashed rgba(58, 58, 58, 0.404);
+   border: 2px dotted rgba(0, 0, 0, 0.404);
    width:280px;
    height:280px;
 }

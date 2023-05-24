@@ -6,11 +6,11 @@
    border:1px dashed #bebebeaf;
    color: white;
    border-radius: 3px;
-   padding:40px;
+   padding:50px 50px 30px 50px;
    display: flex;
    flex-direction: column;
    align-items: center;
-   background: linear-gradient(0deg,#689985 0%,#5b9591dc 100%);
+   background: linear-gradient(0deg,#68998550 0%,#5b9591c9 100%);
    box-shadow: 0.1px 0.1px 120px rgba(0, 0, 0, 0.258);
 
    
@@ -57,7 +57,7 @@
  
 .greet-box  button:hover {
    color: #222222;
-   background: rgba(255, 255, 255, 0.904);
+   background: rgba(255, 255, 255, 0.945);
    box-shadow: 0.1px 0.1px 2px rgba(0, 0, 0, 0.416) inset,0.1px 0.1px 20px rgba(0, 75, 68, 0.16) inset,;
    border: 6px solid #59bedcd8;
    cursor: pointer;

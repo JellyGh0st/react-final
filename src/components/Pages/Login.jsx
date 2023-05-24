@@ -35,7 +35,7 @@ const Login = () => {
     <main>
       <section id="login-main">
         <div>
-          
+        <h2>Login</h2>
           <form onSubmit={(e)=> {formSubmit(e)}}>
             <div>
               <label htmlFor="username">Username:</label>

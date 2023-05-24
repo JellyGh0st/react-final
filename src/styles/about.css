@@ -4,13 +4,13 @@
   margin: 20px 0;
   max-width: 1200px;
   border: 1px dashed #ffffff84;
-  color: #090909;
+  color: #030303;
   padding: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   line-height: 26px;
-  background-color: rgba(158, 254, 219, 0.373);
+  background-color: rgba(158, 254, 219, 0.267);
   box-shadow: 1px 1px 500px rgba(0, 0, 0, 0.257);
   border-radius: 3px;
 }
