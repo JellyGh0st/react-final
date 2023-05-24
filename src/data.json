@@ -68,6 +68,22 @@
       {
          "id": 2,
          "userId": 4,
+         "title": "Funkcionalumai?",
+         "question": "Gal kas matėt funkcionalumus? Pasileidau app'ą šį ryt, per naktį puse dingo?",
+         "isEdited": false,
+         "answers": [
+            {
+               "id": 1,
+               "userId": 3,
+               "content": "Ištrink node_module folderį ir pervadink visus .js ir .jsx failus i .txt formatą.. Turėtų išsispręsti..",
+               "upvotes": 2,
+               "downvotes": 0
+            }
+         ]
+      },
+      {
+         "id": 3,
+         "userId": 4,
          "title": "Nesusija su React",
          "question": "Ka veikiat?",
          "isEdited": false,
@@ -89,39 +105,7 @@
          ]
       },
       {
-         "id": 3,
-         "userId": 4,
-         "title": "Funkcionalumai?",
-         "question": "Gal kas matėt funkcionalumus? Pasileidau app'ą šį ryt, per naktį puse dingo?",
-         "isEdited": false,
-         "answers": [
-            {
-               "id": 1,
-               "userId": 3,
-               "content": "Ištrink node_module folderį ir pervadink visus .js ir .jsx failus i .txt formatą.. Turėtų išsispręsti..",
-               "upvotes": 2,
-               "downvotes": 0
-            }
-         ]
-      },
-      {
          "id": 4,
-         "userId": 2,
-         "title": "Asmeninis klausimas...",
-         "question": "O kur kabutės? Negi neskiriat backtiko nuo double-komos? ",
-         "isEdited": false,
-         "answers": [
-            {
-               "id": 1,
-               "userId": 3,
-               "content": "Aha man ir idomu..?",
-               "upvotes": 2,
-               "downvotes": 0
-            }
-         ]
-      },
-      {
-         "id": 5,
          "userId": 5,
          "title": "Kur čia vakarėlis?",
          "question": "Girdėjau vakar parke muzika grojo per puse Vilniaus? Kažką praleidau?",
@@ -135,6 +119,23 @@
                "downvotes": 0
             }
          ]
+      },
+      {
+         "id": 5,
+         "userId": 2,
+         "title": "Asmeninis klausimas...",
+         "question": "O kur kabutės? Negi neskiriat backtiko nuo double-komos? ",
+         "isEdited": false,
+         "answers": [
+            {
+               "id": 1,
+               "userId": 3,
+               "content": "Aha man ir idomu..?",
+               "upvotes": 2,
+               "downvotes": 0
+            }
+         ]
       }
+      
    ]
 }

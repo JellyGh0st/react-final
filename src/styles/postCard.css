@@ -1,23 +1,26 @@
 .post-card {
    width: 950px;
    height: 140px;
-   background-color: rgba(255, 255, 255, 0.986);
-   padding: 10px 0px 10px 0;
-   border: 3px solid rgba(95, 95, 95, 0.199);
+   background-color: rgb(255, 255, 255);
+   padding: 15px 0px 15px 0;
+   border: 1px dotted rgba(29, 17, 17, 0.897);
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   border-radius: 5px;
+   border-radius: 3px;
    box-shadow: 0.1px 1px 60px rgba(45, 47, 46, 0.27);
 }
 
 .post-card h4 {
    margin: 0;
-   color: rgb(66, 131, 216);
+   color: rgb(7, 24, 23);
+   text-shadow: 0.1px 1px 0.2px rgba(0, 0, 0, 0);
 }
 .post-text-area p {
    margin: 5px 15px;
    font-size: 17px;
+   color: rgb(0, 0, 0);
+   
    
 }
 
@@ -28,13 +31,13 @@
    align-items: center;
    background-color: none;
    flex-direction: column;
-   border-right: 1px dotted rgba(0, 0, 0, 0.429) ;
+   border-right: 1px dotted rgba(36, 24, 53, 0.429)
 }
 
 .avatar p {
    margin: 5px 0 0;
-   font-weight: 700;
-   color: rgb(49, 28, 3);
+   font-weight: 400;
+   color: rgb(28, 11, 36);
 }
 
 .avatar img {
@@ -42,12 +45,13 @@
    height: 70%;
    object-fit: cover;
    border-radius: 80px;
-   border: 2px solid rgba(12, 2, 18, 0.722);
+   border: 1px dotted rgba(5, 4, 4, 0.938);
 }
 
 .custom-link {
-   padding: 5px 0;
+   padding:  0;
    overflow: hidden;
+   
 }
 .post-vote {
    background-color: none;
